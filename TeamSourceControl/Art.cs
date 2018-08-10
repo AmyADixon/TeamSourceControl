@@ -7,16 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TeamSourceControl
-{
+namespace TeamSourceControl {
     using System;
     using System.Collections.Generic;
     
-    public partial class Art
-    {
+    public partial class Art {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Art()
-        {
+        public Art() {
             this.VirtualGallery = new HashSet<VirtualGallery>();
         }
     

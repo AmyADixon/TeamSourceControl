@@ -12,11 +12,9 @@ namespace TeamSourceControl
     using System;
     using System.Collections.Generic;
     
-    public partial class Artists
-    {
+    public partial class Artists {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Artists()
-        {
+        public Artists() {
             this.DisplayedArtistPieces = new HashSet<DisplayedArtistPieces>();
             this.MediaUsed = new HashSet<MediaUsed>();
             this.OtherGalleryWorks = new HashSet<OtherGalleryWorks>();

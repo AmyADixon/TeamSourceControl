@@ -7,13 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TeamSourceControl
-{
+namespace TeamSourceControl {
     using System;
     using System.Collections.Generic;
     
-    public partial class ArtLocation
-    {
+    public partial class ArtLocation {
         public int ArtPieceID { get; set; }
         public string HallNumber { get; set; }
         public string RoomNumber { get; set; }
