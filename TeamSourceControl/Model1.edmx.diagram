@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="93e764c5a0ec4a0783de6ec1a985f0a6" Name="Diagram1">
+        <EntityTypeShape EntityType="CtrlArtGalleryModel.Art" Width="1.5" PointX="0.75" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CtrlArtGalleryModel.ArtistMedia" Width="1.5" PointX="0.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CtrlArtGalleryModel.Artists" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CtrlArtGalleryModel.ArtLocation" Width="1.5" PointX="3" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CtrlArtGalleryModel.DisplayedArtistPieces" Width="1.5" PointX="3" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CtrlArtGalleryModel.FeaturedArtists" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CtrlArtGalleryModel.GalleryEvents" Width="1.5" PointX="0.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CtrlArtGalleryModel.GalleryInfo" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CtrlArtGalleryModel.GalleryVisitors" Width="1.5" PointX="3.75" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CtrlArtGalleryModel.MediaUsed" Width="1.5" PointX="3" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CtrlArtGalleryModel.OtherGalleryWorks" Width="1.5" PointX="6" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CtrlArtGalleryModel.VirtualGallery" Width="1.5" PointX="6" PointY="11.75" IsExpanded="true" />
+        <AssociationConnector Association="CtrlArtGalleryModel.FK__ArtLocati__ArtPi__300424B4" ManuallyRouted="false" />
+        <AssociationConnector Association="CtrlArtGalleryModel.FK__Displayed__Artis__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="CtrlArtGalleryModel.FK__MediaUsed__ArtPi__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="CtrlArtGalleryModel.FK__VirtualGa__ArtPi__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="CtrlArtGalleryModel.FK__MediaUsed__Media__33D4B598" ManuallyRouted="false" />
+        <AssociationConnector Association="CtrlArtGalleryModel.FK__Displayed__Artis__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="CtrlArtGalleryModel.FK__FeaturedA__Artis__37A5467C" ManuallyRouted="false" />
+        <AssociationConnector Association="CtrlArtGalleryModel.FK__MediaUsed__Artis__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="CtrlArtGalleryModel.FK__OtherGall__Artis__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="CtrlArtGalleryModel.FK__FeaturedA__Event__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="CtrlArtGalleryModel.FK__OtherGall__Galle__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="CtrlArtGalleryModel.FK__VirtualGa__Membe__4316F928" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
