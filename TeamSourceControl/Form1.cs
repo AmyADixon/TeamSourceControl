@@ -30,5 +30,11 @@ namespace TeamSourceControl {
             cbArtists.DisplayMember = nameof(Artists.ArtistFirstName);
 
         }
+
+        private void btnAddArtist_Click(object sender, EventArgs e) {
+            FormAddArtist createArtistPage = new FormAddArtist();
+
+            createArtistPage.ShowDialog();
+        }
     }
 }
