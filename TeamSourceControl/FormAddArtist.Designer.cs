@@ -23,23 +23,23 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tbFirstName = new System.Windows.Forms.TextBox();
             this.lblFirstName = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tbEmail = new System.Windows.Forms.TextBox();
             this.lblEmail = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.tbCity = new System.Windows.Forms.TextBox();
             this.lblCity = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.tbState = new System.Windows.Forms.TextBox();
             this.lblState = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.tbLastName = new System.Windows.Forms.TextBox();
             this.lblLastName = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.tbTag = new System.Windows.Forms.TextBox();
             this.lblTag = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.tbPhone = new System.Windows.Forms.TextBox();
             this.lblPhone = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.tbAbout = new System.Windows.Forms.TextBox();
             this.lblAbout = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.tbWebsite = new System.Windows.Forms.TextBox();
             this.lblWebsite = new System.Windows.Forms.Label();
             this.gbRequired = new System.Windows.Forms.GroupBox();
             this.gbOptional = new System.Windows.Forms.GroupBox();
@@ -48,12 +48,12 @@
             this.gbOptional.SuspendLayout();
             this.SuspendLayout();
             // 
-            // textBox1
+            // tbFirstName
             // 
-            this.textBox1.Location = new System.Drawing.Point(131, 39);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 29);
-            this.textBox1.TabIndex = 0;
+            this.tbFirstName.Location = new System.Drawing.Point(131, 39);
+            this.tbFirstName.Name = "tbFirstName";
+            this.tbFirstName.Size = new System.Drawing.Size(100, 29);
+            this.tbFirstName.TabIndex = 0;
             // 
             // lblFirstName
             // 
@@ -64,12 +64,12 @@
             this.lblFirstName.TabIndex = 1;
             this.lblFirstName.Text = "First Name";
             // 
-            // textBox2
+            // tbEmail
             // 
-            this.textBox2.Location = new System.Drawing.Point(131, 103);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 29);
-            this.textBox2.TabIndex = 2;
+            this.tbEmail.Location = new System.Drawing.Point(131, 103);
+            this.tbEmail.Name = "tbEmail";
+            this.tbEmail.Size = new System.Drawing.Size(100, 29);
+            this.tbEmail.TabIndex = 2;
             // 
             // lblEmail
             // 
@@ -80,12 +80,12 @@
             this.lblEmail.TabIndex = 3;
             this.lblEmail.Text = "Email";
             // 
-            // textBox3
+            // tbCity
             // 
-            this.textBox3.Location = new System.Drawing.Point(131, 167);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 29);
-            this.textBox3.TabIndex = 4;
+            this.tbCity.Location = new System.Drawing.Point(131, 167);
+            this.tbCity.Name = "tbCity";
+            this.tbCity.Size = new System.Drawing.Size(100, 29);
+            this.tbCity.TabIndex = 4;
             // 
             // lblCity
             // 
@@ -96,12 +96,12 @@
             this.lblCity.TabIndex = 5;
             this.lblCity.Text = "City";
             // 
-            // textBox4
+            // tbState
             // 
-            this.textBox4.Location = new System.Drawing.Point(131, 231);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 29);
-            this.textBox4.TabIndex = 6;
+            this.tbState.Location = new System.Drawing.Point(131, 231);
+            this.tbState.Name = "tbState";
+            this.tbState.Size = new System.Drawing.Size(100, 29);
+            this.tbState.TabIndex = 6;
             // 
             // lblState
             // 
@@ -112,12 +112,12 @@
             this.lblState.TabIndex = 7;
             this.lblState.Text = "State";
             // 
-            // textBox5
+            // tbLastName
             // 
-            this.textBox5.Location = new System.Drawing.Point(153, 36);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 29);
-            this.textBox5.TabIndex = 8;
+            this.tbLastName.Location = new System.Drawing.Point(153, 36);
+            this.tbLastName.Name = "tbLastName";
+            this.tbLastName.Size = new System.Drawing.Size(100, 29);
+            this.tbLastName.TabIndex = 8;
             // 
             // lblLastName
             // 
@@ -128,12 +128,12 @@
             this.lblLastName.TabIndex = 9;
             this.lblLastName.Text = "Last Name";
             // 
-            // textBox6
+            // tbTag
             // 
-            this.textBox6.Location = new System.Drawing.Point(153, 87);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 29);
-            this.textBox6.TabIndex = 10;
+            this.tbTag.Location = new System.Drawing.Point(153, 87);
+            this.tbTag.Name = "tbTag";
+            this.tbTag.Size = new System.Drawing.Size(100, 29);
+            this.tbTag.TabIndex = 10;
             // 
             // lblTag
             // 
@@ -144,12 +144,12 @@
             this.lblTag.TabIndex = 11;
             this.lblTag.Text = "Artist Tag/Handle";
             // 
-            // textBox7
+            // tbPhone
             // 
-            this.textBox7.Location = new System.Drawing.Point(153, 138);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 29);
-            this.textBox7.TabIndex = 12;
+            this.tbPhone.Location = new System.Drawing.Point(153, 138);
+            this.tbPhone.Name = "tbPhone";
+            this.tbPhone.Size = new System.Drawing.Size(100, 29);
+            this.tbPhone.TabIndex = 12;
             // 
             // lblPhone
             // 
@@ -160,12 +160,12 @@
             this.lblPhone.TabIndex = 13;
             this.lblPhone.Text = "Phone";
             // 
-            // textBox8
+            // tbAbout
             // 
-            this.textBox8.Location = new System.Drawing.Point(153, 189);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 29);
-            this.textBox8.TabIndex = 14;
+            this.tbAbout.Location = new System.Drawing.Point(153, 189);
+            this.tbAbout.Name = "tbAbout";
+            this.tbAbout.Size = new System.Drawing.Size(100, 29);
+            this.tbAbout.TabIndex = 14;
             // 
             // lblAbout
             // 
@@ -176,12 +176,12 @@
             this.lblAbout.TabIndex = 15;
             this.lblAbout.Text = "About";
             // 
-            // textBox9
+            // tbWebsite
             // 
-            this.textBox9.Location = new System.Drawing.Point(153, 240);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(100, 29);
-            this.textBox9.TabIndex = 16;
+            this.tbWebsite.Location = new System.Drawing.Point(153, 240);
+            this.tbWebsite.Name = "tbWebsite";
+            this.tbWebsite.Size = new System.Drawing.Size(100, 29);
+            this.tbWebsite.TabIndex = 16;
             // 
             // lblWebsite
             // 
@@ -194,13 +194,13 @@
             // 
             // gbRequired
             // 
-            this.gbRequired.Controls.Add(this.textBox1);
+            this.gbRequired.Controls.Add(this.tbFirstName);
             this.gbRequired.Controls.Add(this.lblFirstName);
-            this.gbRequired.Controls.Add(this.textBox2);
+            this.gbRequired.Controls.Add(this.tbEmail);
             this.gbRequired.Controls.Add(this.lblEmail);
-            this.gbRequired.Controls.Add(this.textBox3);
+            this.gbRequired.Controls.Add(this.tbCity);
             this.gbRequired.Controls.Add(this.lblCity);
-            this.gbRequired.Controls.Add(this.textBox4);
+            this.gbRequired.Controls.Add(this.tbState);
             this.gbRequired.Controls.Add(this.lblState);
             this.gbRequired.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbRequired.Location = new System.Drawing.Point(54, 43);
@@ -212,15 +212,15 @@
             // 
             // gbOptional
             // 
-            this.gbOptional.Controls.Add(this.textBox5);
+            this.gbOptional.Controls.Add(this.tbLastName);
             this.gbOptional.Controls.Add(this.lblLastName);
             this.gbOptional.Controls.Add(this.lblWebsite);
-            this.gbOptional.Controls.Add(this.textBox6);
-            this.gbOptional.Controls.Add(this.textBox9);
+            this.gbOptional.Controls.Add(this.tbTag);
+            this.gbOptional.Controls.Add(this.tbWebsite);
             this.gbOptional.Controls.Add(this.lblTag);
             this.gbOptional.Controls.Add(this.lblAbout);
-            this.gbOptional.Controls.Add(this.textBox7);
-            this.gbOptional.Controls.Add(this.textBox8);
+            this.gbOptional.Controls.Add(this.tbPhone);
+            this.gbOptional.Controls.Add(this.tbAbout);
             this.gbOptional.Controls.Add(this.lblPhone);
             this.gbOptional.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbOptional.Location = new System.Drawing.Point(500, 43);
@@ -239,6 +239,7 @@
             this.btnCreate.TabIndex = 20;
             this.btnCreate.Text = "Create";
             this.btnCreate.UseVisualStyleBackColor = true;
+            this.btnCreate.Click += new System.EventHandler(this.btnCreate_Click);
             // 
             // FormAddArtist
             // 
@@ -260,23 +261,23 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tbFirstName;
         private System.Windows.Forms.Label lblFirstName;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox tbEmail;
         private System.Windows.Forms.Label lblEmail;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox tbCity;
         private System.Windows.Forms.Label lblCity;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox tbState;
         private System.Windows.Forms.Label lblState;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox tbLastName;
         private System.Windows.Forms.Label lblLastName;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox tbTag;
         private System.Windows.Forms.Label lblTag;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox tbPhone;
         private System.Windows.Forms.Label lblPhone;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox tbAbout;
         private System.Windows.Forms.Label lblAbout;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox tbWebsite;
         private System.Windows.Forms.Label lblWebsite;
         private System.Windows.Forms.GroupBox gbRequired;
         private System.Windows.Forms.GroupBox gbOptional;
