@@ -52,7 +52,7 @@
             // 
             this.tbFirstName.Location = new System.Drawing.Point(131, 39);
             this.tbFirstName.Name = "tbFirstName";
-            this.tbFirstName.Size = new System.Drawing.Size(100, 29);
+            this.tbFirstName.Size = new System.Drawing.Size(144, 29);
             this.tbFirstName.TabIndex = 0;
             // 
             // lblFirstName
@@ -68,7 +68,7 @@
             // 
             this.tbEmail.Location = new System.Drawing.Point(131, 103);
             this.tbEmail.Name = "tbEmail";
-            this.tbEmail.Size = new System.Drawing.Size(100, 29);
+            this.tbEmail.Size = new System.Drawing.Size(144, 29);
             this.tbEmail.TabIndex = 2;
             // 
             // lblEmail
@@ -84,7 +84,7 @@
             // 
             this.tbCity.Location = new System.Drawing.Point(131, 167);
             this.tbCity.Name = "tbCity";
-            this.tbCity.Size = new System.Drawing.Size(100, 29);
+            this.tbCity.Size = new System.Drawing.Size(144, 29);
             this.tbCity.TabIndex = 4;
             // 
             // lblCity
@@ -100,7 +100,7 @@
             // 
             this.tbState.Location = new System.Drawing.Point(131, 231);
             this.tbState.Name = "tbState";
-            this.tbState.Size = new System.Drawing.Size(100, 29);
+            this.tbState.Size = new System.Drawing.Size(144, 29);
             this.tbState.TabIndex = 6;
             // 
             // lblState
@@ -116,7 +116,7 @@
             // 
             this.tbLastName.Location = new System.Drawing.Point(153, 36);
             this.tbLastName.Name = "tbLastName";
-            this.tbLastName.Size = new System.Drawing.Size(100, 29);
+            this.tbLastName.Size = new System.Drawing.Size(144, 29);
             this.tbLastName.TabIndex = 8;
             // 
             // lblLastName
@@ -132,7 +132,7 @@
             // 
             this.tbTag.Location = new System.Drawing.Point(153, 87);
             this.tbTag.Name = "tbTag";
-            this.tbTag.Size = new System.Drawing.Size(100, 29);
+            this.tbTag.Size = new System.Drawing.Size(144, 29);
             this.tbTag.TabIndex = 10;
             // 
             // lblTag
@@ -148,7 +148,7 @@
             // 
             this.tbPhone.Location = new System.Drawing.Point(153, 138);
             this.tbPhone.Name = "tbPhone";
-            this.tbPhone.Size = new System.Drawing.Size(100, 29);
+            this.tbPhone.Size = new System.Drawing.Size(144, 29);
             this.tbPhone.TabIndex = 12;
             // 
             // lblPhone
@@ -164,7 +164,7 @@
             // 
             this.tbAbout.Location = new System.Drawing.Point(153, 189);
             this.tbAbout.Name = "tbAbout";
-            this.tbAbout.Size = new System.Drawing.Size(100, 29);
+            this.tbAbout.Size = new System.Drawing.Size(144, 29);
             this.tbAbout.TabIndex = 14;
             // 
             // lblAbout
@@ -180,7 +180,7 @@
             // 
             this.tbWebsite.Location = new System.Drawing.Point(153, 240);
             this.tbWebsite.Name = "tbWebsite";
-            this.tbWebsite.Size = new System.Drawing.Size(100, 29);
+            this.tbWebsite.Size = new System.Drawing.Size(144, 29);
             this.tbWebsite.TabIndex = 16;
             // 
             // lblWebsite
