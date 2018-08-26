@@ -28,6 +28,7 @@
             this.btnAddArtist = new System.Windows.Forms.Button();
             this.btnDeleteArtist = new System.Windows.Forms.Button();
             this.lblArtist = new System.Windows.Forms.Label();
+            this.btnAddArt = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // cbArtists
@@ -35,35 +36,36 @@
             this.cbArtists.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbArtists.ForeColor = System.Drawing.Color.Green;
             this.cbArtists.FormattingEnabled = true;
-            this.cbArtists.Location = new System.Drawing.Point(121, 65);
+            this.cbArtists.Location = new System.Drawing.Point(146, 64);
             this.cbArtists.Name = "cbArtists";
-            this.cbArtists.Size = new System.Drawing.Size(307, 30);
+            this.cbArtists.Size = new System.Drawing.Size(375, 30);
             this.cbArtists.TabIndex = 0;
             // 
             // lvDisplayArt
             // 
             this.lvDisplayArt.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lvDisplayArt.ForeColor = System.Drawing.Color.Green;
-            this.lvDisplayArt.Location = new System.Drawing.Point(121, 126);
+            this.lvDisplayArt.Location = new System.Drawing.Point(146, 125);
             this.lvDisplayArt.Name = "lvDisplayArt";
-            this.lvDisplayArt.Size = new System.Drawing.Size(307, 149);
+            this.lvDisplayArt.Size = new System.Drawing.Size(375, 149);
             this.lvDisplayArt.TabIndex = 1;
             this.lvDisplayArt.UseCompatibleStateImageBehavior = false;
             // 
             // btnAddArtist
             // 
             this.btnAddArtist.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddArtist.Location = new System.Drawing.Point(121, 295);
+            this.btnAddArtist.Location = new System.Drawing.Point(146, 294);
             this.btnAddArtist.Name = "btnAddArtist";
             this.btnAddArtist.Size = new System.Drawing.Size(121, 63);
             this.btnAddArtist.TabIndex = 2;
             this.btnAddArtist.Text = "Add Artist";
             this.btnAddArtist.UseVisualStyleBackColor = true;
+            this.btnAddArtist.Click += new System.EventHandler(this.btnAddArtist_Click);
             // 
             // btnDeleteArtist
             // 
             this.btnDeleteArtist.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDeleteArtist.Location = new System.Drawing.Point(307, 295);
+            this.btnDeleteArtist.Location = new System.Drawing.Point(400, 294);
             this.btnDeleteArtist.Name = "btnDeleteArtist";
             this.btnDeleteArtist.Size = new System.Drawing.Size(121, 63);
             this.btnDeleteArtist.TabIndex = 3;
@@ -74,17 +76,28 @@
             // 
             this.lblArtist.AutoSize = true;
             this.lblArtist.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblArtist.Location = new System.Drawing.Point(26, 68);
+            this.lblArtist.Location = new System.Drawing.Point(40, 67);
             this.lblArtist.Name = "lblArtist";
             this.lblArtist.Size = new System.Drawing.Size(89, 22);
             this.lblArtist.TabIndex = 4;
             this.lblArtist.Text = "Select Artist";
             // 
+            // btnAddArt
+            // 
+            this.btnAddArt.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddArt.Location = new System.Drawing.Point(273, 294);
+            this.btnAddArt.Name = "btnAddArt";
+            this.btnAddArt.Size = new System.Drawing.Size(121, 63);
+            this.btnAddArt.TabIndex = 5;
+            this.btnAddArt.Text = "Add Art";
+            this.btnAddArt.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(499, 434);
+            this.ClientSize = new System.Drawing.Size(615, 434);
+            this.Controls.Add(this.btnAddArt);
             this.Controls.Add(this.lblArtist);
             this.Controls.Add(this.btnDeleteArtist);
             this.Controls.Add(this.btnAddArtist);
@@ -105,6 +118,7 @@
         private System.Windows.Forms.Button btnAddArtist;
         private System.Windows.Forms.Button btnDeleteArtist;
         private System.Windows.Forms.Label lblArtist;
+        private System.Windows.Forms.Button btnAddArt;
     }
 }
 

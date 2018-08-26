@@ -24,11 +24,17 @@ namespace TeamSourceControl {
                                                         select person).ToList();
 
             //Display artists in the combo box
-            cbArtists.DataSource = allArtists;
+            cbArtists.DataSource = allArtists; 
 
             cbArtists.DisplayMember = "ArtistFirstName";
             cbArtists.DisplayMember = nameof(Artists.ArtistFirstName);
 
+        }
+
+        private void btnAddArtist_Click(object sender, EventArgs e) {
+            FormAddArtist createArtistPage = new FormAddArtist();
+
+            createArtistPage.ShowDialog();
         }
     }
 }
