@@ -18,7 +18,7 @@ namespace TeamSourceControl {
 
         private void btnCreate_Click(object sender, EventArgs e) {
             //Add textbox information to Artist object
-            Artists artist = new Artists() {
+            Artists artist = new Artists() { 
                 ArtistFirstName = tbFirstName.Text,
                 ArtistEmail = tbEmail.Text,
                 ArtistCity = tbCity.Text,
