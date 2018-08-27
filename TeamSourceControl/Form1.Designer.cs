@@ -71,6 +71,7 @@
             this.btnDeleteArtist.TabIndex = 3;
             this.btnDeleteArtist.Text = "Delete Artist";
             this.btnDeleteArtist.UseVisualStyleBackColor = true;
+            this.btnDeleteArtist.Click += new System.EventHandler(this.btnDeleteArtist_Click);
             // 
             // lblArtist
             // 

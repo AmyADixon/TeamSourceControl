@@ -42,5 +42,9 @@ namespace TeamSourceControl {
 
             addArt.ShowDialog();
         }
+
+        private void btnDeleteArtist_Click(object sender, EventArgs e) {
+            //Get artist by ID, add a method to ArtistDB to retrieve
+        }
     }
 }
