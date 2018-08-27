@@ -91,6 +91,7 @@
             this.btnAddArt.TabIndex = 5;
             this.btnAddArt.Text = "Add Art";
             this.btnAddArt.UseVisualStyleBackColor = true;
+            this.btnAddArt.Click += new System.EventHandler(this.btnAddArt_Click);
             // 
             // Form1
             // 

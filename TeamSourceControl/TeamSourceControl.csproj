@@ -57,6 +57,7 @@
     <Compile Include="Art.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="ArtDB.cs" />
     <Compile Include="ArtistDB.cs" />
     <Compile Include="ArtistMedia.cs">
       <DependentUpon>Model1.tt</DependentUpon>

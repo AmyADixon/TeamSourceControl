@@ -36,5 +36,11 @@ namespace TeamSourceControl {
 
             createArtistPage.ShowDialog();
         }
+
+        private void btnAddArt_Click(object sender, EventArgs e) {
+            FormAddArt addArt = new FormAddArt();
+
+            addArt.ShowDialog();
+        }
     }
 }

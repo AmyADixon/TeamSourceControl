@@ -324,6 +324,7 @@
             this.Controls.Add(this.gbRequired);
             this.Name = "FormAddArt";
             this.Text = "FormAddArt";
+            this.Load += new System.EventHandler(this.FormAddArt_Load);
             this.gbRequired.ResumeLayout(false);
             this.gbRequired.PerformLayout();
             this.gbOptional.ResumeLayout(false);
