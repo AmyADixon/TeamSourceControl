@@ -34,6 +34,8 @@ namespace TeamSourceControl {
             try {
                 ArtistDB.Add(artist);
                 MessageBox.Show("Artist added successfully");
+
+                Close();
             }
             catch(DbEntityValidationException) {
                 MessageBox.Show("Validation Error");

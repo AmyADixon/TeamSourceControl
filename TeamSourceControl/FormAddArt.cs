@@ -78,6 +78,8 @@ namespace TeamSourceControl {
             try {
                 ArtDB.Add(piece);
                 MessageBox.Show("Art piece added successfully");
+
+                Close();
             }
             catch (DbEntityValidationException) {
                 MessageBox.Show("Validation Error");
