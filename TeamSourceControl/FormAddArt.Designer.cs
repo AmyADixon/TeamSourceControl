@@ -240,6 +240,7 @@
             this.dtpSale.Location = new System.Drawing.Point(204, 143);
             this.dtpSale.MaxDate = new System.DateTime(2018, 8, 17, 0, 0, 0, 0);
             this.dtpSale.Name = "dtpSale";
+            this.dtpSale.ShowCheckBox = true;
             this.dtpSale.Size = new System.Drawing.Size(268, 29);
             this.dtpSale.TabIndex = 9;
             this.dtpSale.Value = new System.DateTime(2018, 8, 17, 0, 0, 0, 0);
@@ -249,6 +250,7 @@
             this.dtpRemoved.Location = new System.Drawing.Point(204, 77);
             this.dtpRemoved.MaxDate = new System.DateTime(2018, 8, 17, 0, 0, 0, 0);
             this.dtpRemoved.Name = "dtpRemoved";
+            this.dtpRemoved.ShowCheckBox = true;
             this.dtpRemoved.Size = new System.Drawing.Size(268, 29);
             this.dtpRemoved.TabIndex = 8;
             this.dtpRemoved.Value = new System.DateTime(2018, 8, 17, 0, 0, 0, 0);
@@ -302,6 +304,7 @@
             this.tbPrice.Name = "tbPrice";
             this.tbPrice.Size = new System.Drawing.Size(200, 29);
             this.tbPrice.TabIndex = 2;
+            this.tbPrice.Text = "0.00";
             // 
             // btnCreate
             // 

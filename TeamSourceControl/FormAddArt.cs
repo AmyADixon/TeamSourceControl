@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Entity.Infrastructure;
+using System.Data.Entity.Validation;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -31,6 +33,11 @@ namespace TeamSourceControl {
             cbAgeRange.Items.Add("Any");
             cbAgeRange.Items.Add("13+");
             cbAgeRange.Items.Add("18+");
+
+            //Set all combo boxes to first choice
+            cbStyle.SelectedIndex = 0;
+            cbInteractive.SelectedIndex = 0;
+            cbAgeRange.SelectedIndex = 0;
         }
 
         private void btnCreate_Click(object sender, EventArgs e) {
@@ -40,20 +47,44 @@ namespace TeamSourceControl {
                 bitAnswer = true;
             }
 
+            //Set default if dtp for optional not checked
+            DateTime removed = Convert.ToDateTime("01/01/1700"); //earliest time possible
+            DateTime forSale = Convert.ToDateTime("01/01/1700");
+
+            if(dtpRemoved.Checked) {
+                removed = dtpRemoved.Value.Date;
+            }
+
+            if(dtpSale.Checked) {
+                forSale = dtpSale.Value.Date;
+            }
+
+            //Create Art object
             Art piece = new Art() {
                 Title = tbTitle.Text,
-                DateDisplayed = dtpDisplayed.Value,
-                ArrivalDate = dtpArrival.Value,
-                DateCreated = dtpCreated.Value,
-                Style = cbStyle.SelectedText,
+                DateDisplayed = dtpDisplayed.Value.Date,
+                ArrivalDate = dtpArrival.Value.Date,
+                DateCreated = dtpCreated.Value.Date,
+                Style = cbStyle.SelectedItem.ToString(),
                 IsInteractive = bitAnswer,
-                TargetedAgeRange = cbAgeRange.SelectedText,
+                TargetedAgeRange = cbAgeRange.SelectedItem.ToString(),
                 ArtURL = tbArtURL.Text,
-                DateRemoved = dtpRemoved.Value,
-                DateAvailableForSale = dtpSale.Value,
+                DateRemoved = removed,
+                DateAvailableForSale = forSale,
                 Price = Convert.ToDecimal(tbPrice.Text),
                 Description = tbDescription.Text
             };
+
+            try {
+                ArtDB.Add(piece);
+                MessageBox.Show("Art piece added successfully");
+            }
+            catch (DbEntityValidationException) {
+                MessageBox.Show("Validation Error");
+            }
+            catch (DbUpdateException) {
+                MessageBox.Show("Database error, try again later");
+            }
         }
     }
 }
